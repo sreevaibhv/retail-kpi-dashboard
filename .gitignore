@@ -1,0 +1,61 @@
+# -------------------------
+# Python
+# -------------------------
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.env
+.env/
+venv/
+.venv/
+env/
+ENV/
+.ipynb_checkpoints/
+
+# -------------------------
+# Data Files (keep repo clean)
+# -------------------------
+*.csv
+*.xlsx
+*.xls
+*.parquet
+*.pickle
+*.pkl
+*.db
+*.sqlite
+*.sqlitedb
+
+
+
+# Allow specific files in data (if needed)
+!data/README.md
+
+# -------------------------
+# IDE / Editor
+# -------------------------
+.vscode/
+.idea/
+
+# -------------------------
+# OS files
+# -------------------------
+.DS_Store
+Thumbs.db
+
+# -------------------------
+# Logs
+# -------------------------
+*.log
+
+# -------------------------
+# Node (if dashboard uses JS)
+# -------------------------
+node_modules/
+dist/
+
+# -------------------------
+# Build / Output
+# -------------------------
+build/
+output/
